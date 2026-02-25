@@ -1,4 +1,4 @@
-# Grey collar jobs
+# New Grey collar jobs
 The trend of white-collar professionals moving toward "new-collar" or "grey-collar" roles—jobs that combine high-level analytical skills with hands-on, physical execution—is growing. This shift often appeals to those looking for more tangible results, less "Zoom fatigue," or specialized technical impact.
 
 Here are several career paths where you can blend corporate expertise with physical, frontline work:
