@@ -93,7 +93,7 @@ These are the "Framework-within-a-Framework" patterns common in large companies.
 
 ---
 
-To help you navigate these "deep logic" gaps—especially within the complex, regulated environment of a firm like Wells Fargo—here is a checklist of prompts designed to stress-test AI-generated code.
+Here is a checklist of prompts designed to stress-test AI-generated code.
 
 These are structured to move the LLM from "Happy Path" generation to "Adversarial Architecture" review.
 
@@ -146,7 +146,7 @@ These are structured to move the LLM from "Happy Path" generation to "Adversaria
 
 ## 🏢 Category 4: Meta-Architecture & "Context Rot"
 
-*Use these when working within Wells Fargo’s specific frameworks or custom DI containers.*
+*Use these when working within  specific frameworks or custom DI containers.*
 
 * **The "Architectural Law" Prompt:**
 > "In this repository, we do not use standard `[Library X]` patterns; we use a custom `[Framework/DI Container Name]`. Review this code and identify where it violates our **internal abstraction layers**. Refactor it to use our `[specific BaseClass/Interface]` instead of raw Python/Java idioms."

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Grey collar jobs"
+title: "Openclaw case study"
 date: 2026-02-15
 ---
 # AI-Assisted Development: The OpenClaw Case Study
