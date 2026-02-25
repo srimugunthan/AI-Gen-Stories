@@ -1,3 +1,8 @@
+---
+layout: post
+title: "New Grey collar jobs"
+date: 2026-02-15
+---
 # AI-Assisted Development: The OpenClaw Case Study
 
 The software development landscape has undergone a tectonic shift. In 2020, "scaling" meant hiring more engineers; in 2026, it means orchestrating more agents. **OpenClaw** (formerly known as Moltbot) serves as the definitive case study for this "AI-Native" era.
