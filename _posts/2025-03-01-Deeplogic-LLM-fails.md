@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Deeplogic-LLM-fails"
+date: 2025-03-01
+---
 ## Deep Logic Patterns Where LLMs Fail
 
 These "blind spots" typically fall into four architectural categories:
