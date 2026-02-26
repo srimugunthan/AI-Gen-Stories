@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Custom cuda kernel engineer , Necessity"
+date: 2026-02-20
+---
 The short answer is **no, every company does not need a custom CUDA kernel engineer.** In fact, for 90% of companies, hiring one would be a premature optimization that costs more than it saves.
 
 In 2026, the industry has split into three distinct "tiers" of optimization. Knowing where your company fits determines whether you need a $250k/year kernel expert or just a better AWS instance.
