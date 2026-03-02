@@ -71,4 +71,3 @@ Based on recent research and studies, speech-to-text (dictation) is generally fa
 * [28] [https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2215624](https://www.tandfonline.com/doi/full/10.1080/10447318.2023.2215624)
 * [29] [https://www.reddit.com/r/dvorak/comments/15bgd67/phone_vs_pc/](https://www.reddit.com/r/dvorak/comments/15bgd67/phone_vs_pc/)
 
-Would you like me to create a condensed summary of these findings for a presentation slide?
