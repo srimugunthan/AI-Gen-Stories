@@ -59,6 +59,24 @@ Equity research automation, ESG scoring, alternative data integration, due dilig
 **10. Payments & Treasury**
 Cash flow forecasting, liquidity management, FX optimization, real-time payment fraud, and cross-border payment intelligence.
 
+================================
+Cybersecurity in financial services sits at the intersection of several of those domains rather than being a clean standalone bucket. Here's how it maps:
+
+**Primary overlap: Fraud & Financial Crime (#2)**
+This is the biggest intersection. Account takeover detection, credential stuffing, bot detection, payment fraud — these are cybersecurity problems that financial services treats as fraud problems. The teams, the models, and the data pipelines often overlap heavily. If you own fraud detection end-to-end, you're already touching cyber.
+
+**Secondary overlap: Risk & Compliance (#1)**
+Cyber risk quantification is increasingly a regulatory requirement. Banks need to model cyber risk exposure, run cyber stress tests, and report to regulators (OCC, Fed, DORA in Europe). This is where cyber becomes a risk modeling problem — think probabilistic loss modeling for breach scenarios, third-party vendor risk scoring, and attack surface quantification.
+
+**Tertiary overlap: Operations & Process Automation (#8)**
+Security operations centers (SOCs) in banks are drowning in alerts. Threat detection, alert triage, log anomaly detection, and automated incident response are all ML/AI problems. This is the "SecOps AI" angle.
+
+**The standalone case: Why it's not its own bucket**
+
+In most financial institutions, cybersecurity AI doesn't live as an independent data science domain. It gets absorbed into fraud teams, risk teams, or IT/infrastructure. The models are often the same — anomaly detection, graph analysis, behavioral biometrics, sequential pattern detection. The difference is the threat model and the data source (network logs vs transaction logs), not the methodology.
+
+**However**, there's a growing niche where it *is* becoming its own domain: **AI-native cyber for financial services** — things like LLM-powered threat intelligence, agentic vulnerability management, and AI red-teaming of financial systems. This is still emerging but could become a distinct problem domain in the next few years.
+
 
 
 =========
