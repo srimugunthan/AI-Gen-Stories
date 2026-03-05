@@ -27,6 +27,41 @@ Wire transfers, ACH, real-time payments, correspondent banking, cash management 
 Interest rate dynamics, yield curves, inflation, monetary policy, business cycles. These are the exogenous variables that drive most financial models.
 
 ---
+Here are the major AI problem domains in financial services:
+
+**1. Risk & Compliance**
+Encompasses credit risk modeling, market risk, operational risk, regulatory compliance automation (KYC/AML), stress testing, and model risk management. This is where ML has the deepest regulatory entanglement and where owning the domain means understanding both the math and the regulatory landscape.
+
+**2. Fraud & Financial Crime**
+Transaction fraud detection, identity fraud, money laundering network detection, insider trading surveillance, and synthetic identity detection. This is real-time, adversarial, and high-stakes — graph-based methods, anomaly detection, and sequential modeling all converge here.
+
+**3. Trading & Markets Intelligence**
+Algorithmic trading, portfolio optimization, market microstructure analysis, sentiment-driven signals (news/earnings/social), derivatives pricing, and execution optimization. Heavy on time-series, reinforcement learning, and NLP over financial text.
+
+**4. Lending & Credit Decisioning**
+Underwriting automation, credit scoring (thin-file/alternative data), loan pricing, collections optimization, and fair lending compliance. The intersection of predictive modeling and explainability requirements makes this domain uniquely challenging.
+
+**5. Document Intelligence & Knowledge Extraction**
+Processing 10-Ks, contracts, loan documents, earnings calls, regulatory filings. Includes extraction, summarization, entity resolution, and building structured data from unstructured financial text. RAG and agentic systems are reshaping this fast.
+
+**6. Customer Intelligence & Personalization**
+Churn prediction, next-best-action, customer lifetime value, product recommendation, and conversational AI for banking. Less regulated than risk but massive in scale and revenue impact.
+
+**7. Financial Planning & Advisory**
+Robo-advisory, goal-based planning, tax-loss harvesting, retirement modeling, and wealth management automation. Blends optimization, simulation, and increasingly LLM-powered interfaces.
+
+**8. Operations & Process Automation**
+Reconciliation, payment routing, claims processing (insurance), back-office workflow automation, and exception handling. This is where agentic AI and orchestration (LangGraph-style) have immediate ROI.
+
+**9. Capital Markets & Investment Research**
+Equity research automation, ESG scoring, alternative data integration, due diligence automation, and deal sourcing. The frontier here is multimodal — combining tables, charts, filings, and transcripts.
+
+**10. Payments & Treasury**
+Cash flow forecasting, liquidity management, FX optimization, real-time payment fraud, and cross-border payment intelligence.
+
+
+
+=========
 
 ## Recommended Resources
 
