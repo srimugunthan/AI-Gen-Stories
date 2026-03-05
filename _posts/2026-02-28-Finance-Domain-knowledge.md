@@ -60,6 +60,8 @@ Equity research automation, ESG scoring, alternative data integration, due dilig
 Cash flow forecasting, liquidity management, FX optimization, real-time payment fraud, and cross-border payment intelligence.
 
 ================================
+---
+
 Cybersecurity in financial services sits at the intersection of several of those domains rather than being a clean standalone bucket. Here's how it maps:
 
 **Primary overlap: Fraud & Financial Crime (#2)**
@@ -77,7 +79,7 @@ In most financial institutions, cybersecurity AI doesn't live as an independent 
 
 **However**, there's a growing niche where it *is* becoming its own domain: **AI-native cyber for financial services** — things like LLM-powered threat intelligence, agentic vulnerability management, and AI red-teaming of financial systems. This is still emerging but could become a distinct problem domain in the next few years.
 
-
+---
 
 =========
 
