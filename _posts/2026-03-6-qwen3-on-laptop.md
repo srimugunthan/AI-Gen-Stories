@@ -11,6 +11,7 @@ A 35B model. On a laptop. In real time.
 [https://x.com/i/status/2028141965355975139](https://x.com/i/status/2028141965355975139)
 
 ---
+# Hardware requirements
 
 To run **Qwen3.5-35B-A3B** locally, your hardware requirements depend heavily on the quantization level (compression) you choose. Because this is a **Mixture-of-Experts (MoE)** model, it has 35 billion total parameters but only activates about 3 billion per token ("A3B"), making it exceptionally fast even on consumer hardware.
 
@@ -52,3 +53,55 @@ Qwen3.5 supports up to a **262K context window**. However, memory usage scales w
 
 ---
 
+As of **March 2026**, here is the pricing for the AI PC configurations mentioned in the article, with costs converted to **Indian Rupees (INR)**. Prices for high-end workstations and enterprise models often vary based on customization and specific retailer offers.
+
+---
+# AI PCs
+
+## 1. Featured HP AI PC Models
+
+| Model | Primary Target | Estimated Price (INR) |
+| --- | --- | --- |
+| **HP EliteBook Ultra G1i** | Business Professionals | **₹1,67,075 – ₹2,41,499** |
+| **HP OmniBook Ultra Flip** | Versatile / Convertible | **₹1,69,820 – ₹1,91,999** |
+| **HP ZBook Power G11** | Creative Workstation | **₹1,98,000 – ₹4,11,200** |
+
+---
+
+## 2. General Recommended Configurations (Market Estimates)
+
+For those building or buying custom configurations based on the article's specific user-tier advice, here is the approximate investment required in the Indian market:
+
+### **Content Creator Tier**
+
+* **Specs:** Core Ultra 7, RTX 3000+, 32GB RAM
+* **Estimated Cost:** **₹2,10,000 – ₹2,60,000**
+* *Justification:* Professional-grade GPUs (RTX Ada generation) significantly drive up the cost compared to gaming laptops.
+
+### **Software Developer Tier**
+
+* **Specs:** Core Ultra 7, 32GB LPDDR5x, 1TB SSD
+* **Estimated Cost:** **₹1,55,000 – ₹1,85,000**
+* *Justification:* Prioritizes high-speed RAM and multi-core processing over a high-end dedicated GPU.
+
+### **Data Analyst Tier**
+
+* **Specs:** Core Ultra 7 (30+ TOPS NPU), 32GB RAM
+* **Estimated Cost:** **₹1,65,000 – ₹2,00,000**
+* *Justification:* Requires reliable NPU performance for local data inference and high memory for large datasets.
+
+### **AEC Professional (High-End Workstation)**
+
+* **Specs:** Core Ultra 9, 64GB RAM, RTX 3000 GPU
+* **Estimated Cost:** **₹3,50,000 – ₹4,50,000**
+* *Justification:* The "ZBook" category for Engineering and Construction requires ISV-certified hardware, which commands a massive premium.
+
+---
+
+### Key Market Factors in India
+
+* **GST:** Most listed prices for laptops in India include **18% GST**, which is often claimable for business purchases.
+* **The "AI Premium":** As noted in the guide, AI PCs generally cost **15–25% more** than traditional laptops with similar storage or screen sizes due to the dedicated NPU hardware.
+* **Exchange Offers:** Major retailers (HP Online, Amazon, etc.) typically offer exchange bonuses up to **₹25,000** for older devices.
+
+Would you like me to find the best current discount or exchange offer for a specific model from this list?
