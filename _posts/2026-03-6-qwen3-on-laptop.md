@@ -98,10 +98,3 @@ For those building or buying custom configurations based on the article's specif
 
 ---
 
-### Key Market Factors in India
-
-* **GST:** Most listed prices for laptops in India include **18% GST**, which is often claimable for business purchases.
-* **The "AI Premium":** As noted in the guide, AI PCs generally cost **15–25% more** than traditional laptops with similar storage or screen sizes due to the dedicated NPU hardware.
-* **Exchange Offers:** Major retailers (HP Online, Amazon, etc.) typically offer exchange bonuses up to **₹25,000** for older devices.
-
-Would you like me to find the best current discount or exchange offer for a specific model from this list?
