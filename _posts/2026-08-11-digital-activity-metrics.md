@@ -28,6 +28,38 @@ Research on workplace habits reveals that the average knowledge worker engages i
 
 ---
 
+There's no single validated number, but the research converges around a fairly consistent range — and there's an important catch for how that number would ever be *measured* by activity-monitoring tools.
+
+**The consolidated finding across studies**
+
+- **Deep, cognitively demanding work**: 3–4 hours/day is the figure that shows up again and again — Cal Newport's research-backed estimate, and echoed by multiple independent analyses converging on 3-4 hours of deep work per day as sufficient to produce the output of a highly effective researcher, writer, or professional. Newport himself puts it at roughly this range, going up to 6 hours max for some fields before returns turn sharply negative.
+- **General "actually productive" time** (broader than pure deep work — includes code review, debugging, doc reading): the oft-cited Vouchercloud/University of Kent study and others land around 2 hours 53 minutes of genuinely productive time per 8-hour day, with the rest going to context-switching, meetings, and recovery from interruptions.
+- **A practical threshold**: knowledge workers with at least 3.5 hours of daily focus time tend to report being meaningfully more productive than those with less — this is probably the most defensible single "target number" if you want one.
+- **Rhythm matters more than raw hours**: sustained focus tends to run in blocks of 90 to 120 minutes before concentration degrades regardless of willpower, and the top-decile performers in DeskTime's tracking data worked in 52-minute focused bursts followed by 17-minute breaks rather than one long block.
+- **Interruption cost is brutal for this kind of work**: Gloria Mark's UC Irvine research found people switch tasks roughly every three to five minutes on average in typical office environments, and recovering full concentration after an interruption takes on the order of ~20 minutes — which matters enormously for SWE/DS work where you're holding a mental model of a codebase or a data pipeline in your head.
+
+**Why this doesn't translate cleanly into a "monitoring number"**
+
+This is the crux of the problem with your original question, and it connects directly to what we discussed earlier: activity-monitoring tools measure keystrokes, mouse movement, active-window time, and app usage — not cognition. A senior ML engineer staring at a whiteboard sketch of a DAG, reading a paper on attention mechanisms, or mentally tracing why a training run diverged is producing zero "activity" by monitoring-tool standards while doing the highest-value part of the job. Meanwhile, someone shuffling through Jira tickets and Slack all day generates tons of "active" signal while doing comparatively low-value work.
+
+So if you're asking "what's the target number a monitoring dashboard should show to represent someone in the productive zone" — there isn't a defensible one, because:
+
+- Coding/ML work is bursty and non-linear (a debugging session might be 90% "idle" screen time while someone thinks, then 10 minutes of intense typing).
+- Deep technical work often happens away from the keyboard entirely (design, math, reading papers, whiteboarding architecture).
+- The 3–4 hour deep-work figure is about *cognitive engagement quality*, which is exactly the dimension monitoring software cannot see.
+
+**If you want a practical rule of thumb anyway**
+
+For a software developer or DS/ML role specifically, a reasonable framing — used more for self-management than for surveillance — is:
+
+- **3–4 hours of true focused technical work** (coding, modeling, debugging, deep review) as the daily target
+- **1–2 hours of necessary shallow work** (standups, code review comments, Slack, email)
+- Structured in **75–120 minute blocks** rather than spread thin, given how steeply focus degrades with fragmentation
+
+Anything a monitoring tool reports beyond that is mostly noise about *presence*, not a signal about *output* — which is the same gap that makes monitoring counterproductive for this kind of work in the first place.
+
+---
+
 ### Why Digital Tracking Distorts the Picture
 
 1. **High-Value Offline Work:**
