@@ -88,4 +88,40 @@
 
 ---
 
+## SDLC Tasks with AI Automation Potential > 50%
+
+| Phase | Task | AI Automation % |
+|---|---|---|
+| Development | Unit testing (running) | 100% |
+| Testing | Unit/Integration/System test execution | 100% |
+| Development | Build & integrate modules | 95% |
+| Deployment | Environment setup | 95% |
+| Deployment | Deploy to production (CI/CD) | 95% |
+| Testing | Regression testing | 95% |
+| Development | Set up dev environment/repos | 90% |
+| Deployment | Configuration management | 90% |
+| Deployment | Smoke testing post-deployment | 90% |
+| Maintenance | Monitor performance/logs | 90% |
+| Development | Version control & branching | 85% |
+| Testing | Performance/load testing | 85% |
+| Design | Database schema design | 75% |
+| Development | Unit testing (writing) | 75% |
+| Development | Maintain documentation | 75% |
+| Cross-cutting | Documentation updates | 75% |
+| Analysis | Create SRS | 70% |
+| Development | Write code per spec | 70% |
+| Deployment | Data migration | 70% |
+| Deployment | Rollback (procedure execution) | 70% |
+| Maintenance | Security patching | 70% |
+| Cross-cutting | Quality assurance (checklist audits) | 70% |
+| Analysis | Document functional/non-functional requirements | 65% |
+| Cross-cutting | Compliance/regulatory checks | 65% |
+| Design | Low-level design (LLD) | 60% |
+| Testing | Test planning & test case design | 60% |
+| Analysis | Define acceptance criteria | 55% |
+| Development | Code reviews | 55% |
+| Cross-cutting | Project management/status tracking | 55% |
+| Planning | Risk identification & mitigation | 55% |
+
+**Total: 29 tasks** clear the 50% threshold — 27 out of 29 (~93%) sit in **Development, Testing, or Deployment**, confirming these three phases are where agentic AI delivers the most leverage today. Planning, most of Analysis's judgment calls, UAT, and stakeholder-facing work remain below the line — they're bottlenecked by accountability and organizational context rather than raw task complexity.
 **Overall pattern:** tasks scoring **85%+** are almost entirely execution/procedural (CI/CD, builds, test runs, environment setup) — these are ripe for full agentic automation today. Tasks in the **40–75%** range are "AI drafts, human decides" — the sweet spot for co-pilot-style tooling. Tasks under **30%** are fundamentally about accountability, trust, or strategic judgment (sign-offs, stakeholder relationships, business strategy) and are unlikely to be meaningfully automatable regardless of model capability — the bottleneck isn't AI skill, it's who bears responsibility for the outcome.
