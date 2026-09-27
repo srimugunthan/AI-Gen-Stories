@@ -174,3 +174,65 @@ Compare the official feedback and calibration outcome against your private ledge
 Feed those insights immediately into day one of your next cycle. By running your own performance cycle, you stop outsourcing your career progression to administrative schedules and managerial bandwidth. You operate not as a candidate hoping for recognition, but as a leader directing your own trajectory.
 
 ---
+# How to do a  360° review : AI/ML-Lead case
+For a 360° review as an AI/ML Lead in an AI CoE, the key is mapping stakeholders across three axes: **who you serve, who you enable, and who evaluates the business impact of your work.** Here's a practical framework.
+
+## Stakeholder categories for an AI CoE Lead
+
+**1. Direct reports / team**
+- ML engineers, data scientists, MLOps engineers you manage or mentor
+- Feedback angle: technical leadership, unblocking, growth support, delegation, psychological safety
+
+**2. Peer AI/ML leads and tech leads**
+- Other leads in the CoE or adjacent teams (platform, data engineering, MLOps)
+- Feedback angle: collaboration, technical influence without authority, knowledge sharing, avoiding silos
+
+**3. Your manager / skip-level**
+- Feedback angle: strategic alignment, execution against roadmap, visibility of impact, leadership readiness
+
+**4. Business/product stakeholders (consumers of the CoE's work)**
+- Fraud ops, compliance, risk, product owners who consume your models or tooling
+- Feedback angle: business value delivered, responsiveness, translating tech into outcomes, SLA/reliability
+
+**5. Cross-functional partners**
+- Legal, model risk management (MRM), compliance/regulatory teams — especially relevant given fraud/AML/GenAI work
+- Feedback angle: governance rigor, documentation quality, audit-readiness, risk communication
+
+**6. Platform/infra teams**
+- Data platform, cloud infra, security teams you depend on or that depend on your CoE's standards
+- Feedback angle: technical partnership, standards-setting, dependency management
+
+**7. Junior/mentee talent outside your direct team** (if you do CoE-wide mentoring, guilds, brown bags)
+- Feedback angle: thought leadership, community building, knowledge transfer
+
+## A simple mapping matrix
+
+| Stakeholder | Relationship | What they can speak to |
+|---|---|---|
+| Direct reports (2-4 people) | Manages | Leadership, coaching, delegation |
+| Peer leads (2-3 people) | Collaborates | Cross-team influence, technical judgment |
+| Manager | Reports to | Strategic execution, business alignment |
+| Business/product owner | Serves | Value delivery, responsiveness |
+| MRM/Compliance partner | Governs/audits | Rigor, risk awareness, documentation |
+| Platform/infra partner | Depends on / is depended on by | Technical partnership |
+| Mentee/junior (CoE-wide) | Mentors | Coaching outside direct line |
+
+Aim for 6-8 reviewers total — enough for triangulation, not so many it becomes noise. Cover all four quadrants below, not just people who like you:
+
+```
+                 Reports to you
+                       |
+   Depends on you  ----+----  You depend on
+                       |
+                 Reports above you
+```
+
+## Practical tips for getting good 360 input
+
+- **Ask targeted questions per stakeholder type** rather than one generic form — a compliance partner should be asked about governance/rigor, not "leadership style."
+- **Include at least one dissenting or arms-length voice** — someone who's pushed back on you technically or challenged a decision. This adds credibility versus an echo chamber.
+- **Time-box specificity**: ask for feedback on a recent, concrete initiative (e.g., a specific model launch, an MRM review, a cross-team escalation) rather than "how am I doing overall."
+- **Separate technical leadership from people leadership** in your questions, since as an AI/ML lead these are evaluated differently — architecture/technical judgment vs. team management vs. stakeholder management.
+- **For governance-heavy domains** (fraud/AML/GenAI at a bank), explicitly solicit feedback on risk communication and documentation discipline — this is often under-rated by engineers but heavily weighted in review for regulated environments.
+
+Want me to draft the actual feedback request questions tailored to each stakeholder type (e.g., what to ask a peer lead vs. an MRM partner vs. a direct report)?
