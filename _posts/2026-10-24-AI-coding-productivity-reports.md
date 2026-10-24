@@ -1,15 +1,10 @@
 
 # Report: five studies on AI agents, output and oversight
 
-Most of the numbers hold up against the primary sources. Three of the five bullets need correcting, and one of those corrections is to my own earlier summary.
 
-## Corrections up front
 
-1. **NBER (bullet 2).** The "741% more lines of code but only 20% more releases" figure isn't in the paper's abstract. It comes from a secondary blog's reading of an earlier version. The abstract's headline is a 240% rise in commits falling to a 30% rise in releases. I also mis-attributed the 741% figure to "autonomous agents" in my earlier summary. The blog gave it for interactive agents (details below).
-2. **METR (bullet 4).** The result is real, but METR itself says its follow-up could not reproduce it reliably and that the design broke down.
-3. **Anthropic and HBR (bullet 5).** The 60% and 0–20% figures come from a survey of Anthropic's own staff, not developers in general. The "brain fry" research is BCG's, published in HBR, not research by Harvard.
 
-## 1. Chen and Stratton: 718 firms (bullet 1)
+## 1. Chen and Stratton: 718 firms 
 
 **Paper:** "Artificial Intelligence in the Firm: Bottlenecks in Software Production," Fiona Chen and James Stratton, Harvard. I could not retrieve a direct link to the paper itself. The coverage linked below describes it.
 
@@ -31,7 +26,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 - The version I could confirm is dated August 4, 2026, per one secondary source.
 - It measures software teams, not data science.
 
-## 2. NBER: Demirer, Musolff and Yang (bullet 2)
+## 2. NBER: Demirer, Musolff and Yang
 
 **Paper:** "Writing Code vs. Shipping Code: Productivity Effects Across Generations of AI Coding Tools," NBER Working Paper 35275.
 
@@ -43,7 +38,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 
 **Caveats.** It is a working paper. It is observational, not experimental. "Releases" is a crude proxy for value, since fewer, larger releases would look like lower output.
 
-## 3. Faros AI: AI Productivity Paradox (bullet 3)
+## 3. Faros AI: AI Productivity Paradox 
 
 **Report:** "The AI Productivity Paradox Report 2025," published July 23, 2025.
 
@@ -58,7 +53,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 
 **Caveats.** Faros sells the measurement layer this finding says buyers need. The telemetry is mostly from 2024–2025, before agentic tools were widespread, and the report notes most developers used only autocomplete. The company has since published larger follow-ups: a 2026 report on 22,000 developers across 4,000 teams, reporting more bugs, accelerating incidents and longer review cycles.
 
-## 4. METR randomized trial (bullet 4)
+## 4. METR randomized trial
 
 **Paper:** "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity," Becker, Rush, Barnes and Rein, July 2025.
 
@@ -70,7 +65,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 
 **The follow-up matters.** METR started a new experiment in August 2025. Its February 2026 update says late-2025 AI likely accelerated developers, but selection effects obscure the true speedup. The reasons were that more developers refused to participate because they did not want to work without AI, METR cut pay from $150 to $50 an hour, and its time measurements were unreliable for developers running multiple agents concurrently. So the 19% figure is an early-2025 snapshot. METR does not currently claim agents slow developers down.
 
-## 5a. Anthropic 2026 Agentic Coding Trends Report (bullet 5, first half)
+## 5a. Anthropic 2026 Agentic Coding Trends Report 
 
 **Disclosure:** Anthropic makes me, and it published this report.
 
@@ -80,7 +75,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 
 **Nature of the report.** It is a trends and predictions document, and says its predictions reflect what we're seeing with customers today, not certainties about tomorrow. Secondary sources give conflicting publication dates (January to April 2026), so I'm only calling it early 2026.
 
-## 5b. HBR: "When Using AI Leads to 'Brain Fry'" (bullet 5, second half)
+## 5b. HBR: "When Using AI Leads to 'Brain Fry'" 
 
 **Article:** Julie Bedard, Matthew Kropp, Megan Hsu, Olivia Karaman, Jason Hawes and Gabriella Rosen Kellerman, Harvard Business Review, March 5, 2026. The research is by researchers from Boston Consulting Group and the University of California, Riverside, so it is BCG research published in HBR.
 
@@ -108,8 +103,7 @@ Most of the numbers hold up against the primary sources. Three of the five bulle
 
 ## What this means for your argument
 
-The consistent pattern across the strongest sources is that generation gets cheaper while review and verification hold output back. That claim is well supported. Specific percentages are less solid. Every study measures software engineering, not data science, so applying them to your workflow is an extrapolation. The three-agent finding from BCG is the closest to your earlier question about how many models one data scientist can handle, and it supports a limit of two or three. If you cite these in a talk, cite the NBER abstract numbers and the METR follow-up, not the secondary-source figures.
-
+The consistent pattern across the strongest sources is that generation gets cheaper while review and verification hold output back. That claim is well supported. Specific percentages are less solid.
 Sources:
 - [Chen and Stratton coverage: Four Week MBA (read the full 78-page paper)](https://fourweekmba.com/ai-coding-agents-add-30-more-code-not-more-finished-work/)
 - [Chen and Stratton coverage: detailed design summary](https://braindetox.kr/en/posts/ai_coding_agents_more_code_not_more_software_study_2026.html)
